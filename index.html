@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Shop</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./img/header/Logo.svg">
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <!-- search menu -->
+    <div class="search__interface">
+        <div class="container">
+            <div class="top">
+                <h1 class="title__accent">Search</h1>
+                <button class="close">X</button>
+            </div>
+            <form action="" class="search">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </form>
+            <div class="content">
+            </div>
+        </div>
+        
+    </div>
+    <!-- shopping bag -->
+    <div class="bag__interface">
+        <div class="container">
+            <div class="top">
+                <h1 class="title__accent">Shopping bag</h1>
+                <button class="close">X</button>
+            </div>
+            <div class="content">
+                Products
+            </div>
+        </div>
+    </div>
+    <!-- burger menu -->
+    <section class="burger">
+        <div class="container">
+            <img src="./img/header/Logo.svg" alt="" class="logo">
+            <div class="burger-menu">
+                <div class="d1"></div>
+                <div class="d2"></div>
+                <div class="d3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- header -->
+    <header class="header">
+        <div class="header__inner">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Reservation</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="logo"><img src="./img/header/Logo.svg" alt="Logo"></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Pages</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><button class="nav__btn btn-search"><img src="./img/header/search.svg" alt="" ></button></li>
+                    <li class="nav__item"><button class="nav__btn btn-shopping"><img src="./img/header/shopping-bag.svg" alt=""></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <!-- welcome -->
+    <section class="welcome">
+        <div class="container">
+            <div class="welcome__text">
+                <h1 class="title__accent welcome__title">Enjoy Your Morning Coffee.</h1>
+                <p class="desc welcome__desc">The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity</p>
+                <a href="#" class="btn welcome-btn">Test Coffee</a>
+            </div>
+            <a href="https://youtu.be/nyDnQQSUfL0" class="play-video">
+                <img src="./img/welcome/Play.svg" alt="">
+                <p>Play video</p>
+            </a>
+        </div>
+    </section>
+    <!-- process -->
+    <section class="process">
+        <div class="container">
+            <div class="process__inner">
+                <div class="procces__item">
+                    <h3 class="item__title">
+                        <span>01</span>
+                        Best Coffee Flavour
+                    </h3>
+                    <img src="./img/process/01.png" alt="">
+                </div>
+                <div class="procces__item">
+                    <h3 class="item__title">
+                        <span>02</span> Place to get lost
+                    </h3>
+                    <img src="./img/process/02.png" alt="">
+                </div>
+                <div class="procces__item">
+                    <h3 class="item__title">
+                        <span>03</span> Proper roesting
+                    </h3>
+                    <img src="./img/process/03.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- history -->
+    <section class="history">
+        <div class="container">
+            <div class="history__inner">
+                <div class="galery">
+                    <div>
+                        <img src="./img/history/galery1.png" alt="" class="galery-img">
+                        <img src="./img/history/galery2.png" alt="" class="galery-img">
+                    </div>
+                    <img src="./img/history/galery3.png" alt="" class="galery-img">
+                </div>
+                <div class="history__text">
+                    <h4 class="title">
+                        Our history
+                    </h4>
+                    <h1 class="title__accent">Create a
+                    new story with us</h1>
+                    <p class="desc">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nibh maximus, est eu, mattis nuce. preasent ut quam quis quam venen
+                        atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular products -->
+    <section class="popular">
+        <div class="container">
+            <h4 class="title">Popular Product</h4>
+            <h1 class="title__accent">Coffee popular Product</h1>
+            <div class="popular__inner">
+                <div class="popuar__item">
+                    <img src="./img/popular/coffee.png" alt="">
+                    <div class="popular__item-top">
+                        <span class="product__type">Coffee</span>
+                        <div class="product__stars">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star-empty.svg" alt="">
+                        </div>
+                    </div>
+                    <h5 class="item__title">brazil coffee gred</h5>
+                    <h6 class="popular__price">
+                        Price - <span>$320.00</span>/ $358
+                    </h6>
+                    <button class="btn btn-popular"><img src="./img/header/shopping-bag.svg" alt="" class="">Add to cart</button>
+                </div>
+                <div class="popuar__item">
+                    <img src="./img/popular/coffee.png" alt="">
+                    <div class="popular__item-top">
+                        <span class="product__type">Coffee</span>
+                        <div class="product__stars">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star-empty.svg" alt="">
+                        </div>
+                    </div>
+                    <h5 class="item__title">brazil coffee gred</h5>
+                    <h6 class="popular__price">
+                        Price - <span>$320.00</span>/ $358
+                    </h6>
+                    <button class="btn btn-popular"><img src="./img/header/shopping-bag.svg" alt="" class="">Add to cart</button>
+                </div>
+                <div class="popuar__item">
+                    <img src="./img/popular/coffee.png" alt="">
+                    <div class="popular__item-top">
+                        <span class="product__type">Coffee</span>
+                        <div class="product__stars">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star.svg" alt="">
+                            <img src="./img/popular/star-empty.svg" alt="">
+                        </div>
+                    </div>
+                    <h5 class="item__title">brazil coffee gred</h5>
+                    <h6 class="popular__price">
+                        Price - <span>$320.00</span>/ $358
+                    </h6>
+                    <button class="btn btn-popular"><img src="./img/header/shopping-bag.svg" alt="" class="">Add to cart</button>
+                </div>
+            </div>
+            <a href="#" class="btn btn-view">View all products</a>
+        </div>
+    </section>
+    <!-- cta -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta__inner">
+                <img src="./img/cta.png" alt="">
+                <div class="cta__text">
+                    <h2 class="title__accent">Coffee
+                        machine, buy for home</h2>
+                    <p class="desc">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
+                    volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib
+                    maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fri
+                    ngilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.</p>
+                    <a href="#" class="btn btn-discover">Discover Now</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- menu -->
+    <section class="menu">
+        <div class="container">
+            <h3 class="title">Menu</h3>
+            <h1 class="title__accent">Coffee popular menu</h1>
+            <div class="menu__inner">
+                <div class="menu__item">
+                    <img src="./img/menu/Bg.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-1.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-2.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-3.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-4.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-5.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-6.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+                <div class="menu__item">
+                    <img src="./img/menu/Bg-7.png" alt="Menu coffee">
+                    <h5 class="item__title">Americano rosted gred</h5>
+                    <span class="price">$12:00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials -->
+    <section class="testimonial">
+        <div class="container">
+            <h3 class="title">Testimonial</h3>
+            <h1 class="title__accent">Says our customers
+            </h1>
+            <div class="testimonial__inner">
+                <div class="slider">
+                    <div class="slider-wrapper">
+                        <div class="slide">
+                            <div class="slide__top">
+                                <img src="./img/customers/01.png" alt="Customer Image">
+                                <p class="desc">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP.</p>
+                            </div>
+                            <div class="slider__bottom">
+                                <div class="customer__info">
+                                    <h5 class="name">John Smith</h5>
+                                    <h6 class="profesion desc">Product designer</h6>
+                                </div>
+                                <div class="stars">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__top">
+                                <img src="./img/customers/02.png" alt="Customer Image">
+                                <p class="desc">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP.</p>
+                            </div>
+                            <div class="slider__bottom">
+                                <div class="customer__info">
+                                    <h5 class="name">Brett Lee</h5>
+                                    <h6 class="profesion desc">User Experience Designer</h6>
+                                </div>
+                                <div class="stars">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__top">
+                                <img src="./img/customers/01.png" alt="Customer Image">
+                                <p class="desc">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP.</p>
+                            </div>
+                            <div class="slider__bottom">
+                                <div class="customer__info">
+                                    <h5 class="name">John Smith</h5>
+                                    <h6 class="profesion desc">Product designer</h6>
+                                </div>
+                                <div class="stars">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__top">
+                                <img src="./img/customers/02.png" alt="Customer Image">
+                                <p class="desc">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP.</p>
+                            </div>
+                            <div class="slider__bottom">
+                                <div class="customer__info">
+                                    <h5 class="name">Brett Lee</h5>
+                                    <h6 class="profesion desc">User Experience Designer</h6>
+                                </div>
+                                <div class="stars">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__top">
+                                <img src="./img/customers/01.png" alt="Customer Image">
+                                <p class="desc">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP.</p>
+                            </div>
+                            <div class="slider__bottom">
+                                <div class="customer__info">
+                                    <h5 class="name">John Smith</h5>
+                                    <h6 class="profesion desc">Product designer</h6>
+                                </div>
+                                <div class="stars">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__top">
+                                <img src="./img/customers/02.png" alt="Customer Image">
+                                <p class="desc">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP.</p>
+                            </div>
+                            <div class="slider__bottom">
+                                <div class="customer__info">
+                                    <h5 class="name">Brett Lee</h5>
+                                    <h6 class="profesion desc">User Experience Designer</h6>
+                                </div>
+                                <div class="stars">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                    <img src="./img/customers/Star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__footer">
+                        <div class="pagination">
+                            <span class="items__left"><span class="count">2</span>/6</span>
+                            <span class="items__left">People</span>
+                        </div>
+                        <div class="scroll__buttons">
+                            <button class="scroll__btn scroll-left"><img src="./img/customers/arrow-left.svg" alt=""></button>
+                            <button class="scroll__btn scroll-right"><img src="./img/customers/arrow-right.svg" alt=""></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reservation -->
+    <section class="reservation">
+        <div class="container">
+            <div class="reservation__inner">
+                <img src="./img/map.jpg" alt="" class="">
+                <div class="reservation__interface">
+                    <h4 class="title">Reservation</h4>
+                    <h1 class="title__accent">Booking a table</h1>
+                    <form action="" class="reservation__form">
+                        <input type="text" class="form__field" placeholder="4 Persons">
+                        <input type="text" class="form__field" placeholder="12.25.2020">
+                        <input type="text" class="form__field" placeholder="11:00 AM">
+                        <button class="btn btn-reserve">Book a table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news -->
+    <section class="news">
+        <div class="container">
+            <h3 class="title">Testimonial</h3>
+            <h1 class="title__accent">Our latest news</h1>
+            <div class="news__inner">
+                <div class="news__item">
+                    <img src="./img/news/01.png" alt="" class="item__img">
+                    <div class="item__content">
+                        <div class="item__header">
+                            <span class="author"><span>By:</span> rasaline</span>
+                            <p class="date">23.01.2021</p>
+                        </div>
+                        <h4 class="item__title" style="font-size: 20px;">
+                            Ideal cocktails from barmen....
+                        </h4>
+                        <a href="#" class="read__more">Read More <img src="./img/news/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <img src="./img/news/02.png" alt="" class="item__img">
+                    <div class="item__content">
+                        <div class="item__header">
+                            <span class="author"><span>By:</span> rasaline</span>
+                            <p class="date">23.01.2021</p>
+                        </div>
+                        <h4 class="item__title" style="font-size: 20px;">
+                            Ideal cocktails from barmen....
+                        </h4>
+                        <a href="#" class="read__more">Read More <img src="./img/news/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <img src="./img/news/03.png" alt="" class="item__img">
+                    <div class="item__content">
+                        <div class="item__header">
+                            <span class="author"><span>By:</span> rasaline</span>
+                            <p class="date">23.01.2021</p>
+                        </div>
+                        <h4 class="item__title" style="font-size: 20px;">
+                            Ideal cocktails from barmen....
+                        </h4>
+                        <a href="#" class="read__more">Read More <img src="./img/news/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__header">
+                <a href="#" class="logo"><img src="./img/header/Logo.svg" alt="Logo"></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="list__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="list__item"><a href="#" class="nav__link">Rerervation</a></li>
+                        <li class="list__item"><a href="#" class="nav__link">Menu</a></li>
+                        <li class="list__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="list__item"><a href="#" class="nav__link">Pages</a></li>
+                        <li class="list__item"><a href="#" class="nav__link">Shop</a></li>
+                        <li class="list__item"><a href="#" class="nav__link">Blogs</a></li>
+                    </ul>
+                </nav>
+                <form action="" class="send__email">
+                    <input type="text" class="send__input" placeholder="Enter your email">
+                    <button class="send__btn scroll__btn scroll-right"><img src="./img/footer/arrow-right.svg" alt=""></button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="footer__bottom">
+            e-Tennis © 2021. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

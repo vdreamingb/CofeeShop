@@ -1,0 +1,37 @@
+
+
+.cta__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: $bg-secondary;
+    gap: 90px;
+    flex-wrap: wrap;
+}   
+
+.cta__text {
+    max-width: 60%;
+    display: block;
+    & .desc{
+        margin: 36px 0px;
+    }
+}
+
+.btn-discover {
+    max-width: 215px;
+    height: 62px;
+}
+
+@media(max-width: 580px){
+    .cta__inner{
+        padding: 30px;
+        .btn-discover{
+            margin: 0 auto;
+        }
+    }
+    .cta__text{
+        max-width: 100%;
+        text-align: center;
+    }
+}

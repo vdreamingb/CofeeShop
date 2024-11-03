@@ -1,0 +1,22 @@
+.process {
+    padding: 140px 0px;
+}
+
+.process__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.procces__item {
+    & .item__title{
+        margin-bottom: 24px;
+    }
+}
+
+.item__title{
+    span{
+        color: $fill;
+    }
+}

@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Righteous:regular);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+    background-color: $bg;
+    color: $white;
+    font-family: $urbanist;
+    font-weight: 500;
+}
+
+a{
+    color: $white;
+    transition: color .3s ease-in-out;
+    &:hover{
+        color: $fill;
+        cursor: pointer;
+    }
+}
+
+button{
+    transition: opacity .3s linear;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+.title__accent{
+    font-size: 48px;
+    font-family: $font-accent;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    overflow: auto;
+    position: relative;
+}
+
+span{
+    span{
+        color: $fill;
+    }
+}
+
+.desc {
+    font-size: 16px;
+    color: $white;
+    opacity: 0.8;
+    line-height: 1.8;
+}
+
+.btn {
+    background-color: $fill;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: opacity .3s linear;
+    width: 100%;
+    &:hover{
+        opacity: 0.8;
+        color: $white;
+    }
+}
+
+.item__title {
+    font-family: $font-accent;
+    font-size: 24px;
+}
+
+.title {
+    font-weight: 600;
+    color: $fill;
+    font-size: 16px;
+}
+body{
+    overflow-x: hidden;
+    &.lock{
+        overflow-y: hidden;
+    }
+}
